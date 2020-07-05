@@ -1,0 +1,68 @@
+/* 
+ RGB 
+$color1: rgba(255, 159, 178, 1);
+$color2: rgba(251, 220, 226, 1);
+$color3: rgba(10, 205, 255, 1);
+$color4: rgba(96, 171, 154, 1);
+$color5: rgba(222, 222, 224, 1);
+
+HEX 
+$color1: #ff9fb2ff;
+$color2: #fbdce2ff;
+$color3: #0acdffff;
+$color4: #60ab9aff;
+$color5: #dedee0ff; */
+
+#home {
+  background: linear-gradient(
+      rgba(222, 222, 224, 0.7),
+      rgba(222, 222, 224, 0.7)
+    ),
+    url(https://images.pexels.com/photos/2793456/pexels-photo-2793456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#home-title {
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 1em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#home-title-sub {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#logo {
+  width: 100px;
+}
+
+.meeting-heading {
+  font-size: 40px;
+  text-align: ;
+}
+
+.label {
+  font-size: 19px;
+  font-weight: normal;
+}
+
+.form-control {
+  background: transparent;
+  color: white;
+  border-radius: 0px;
+  border: 0px;
+  font-size: 21px;
+  border-bottom: 1px solid white;
+  margin-bottom: 15px;
+}
